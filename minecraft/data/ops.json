@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "c61fbf99-35d0-3faf-9fc4-7567385083da",
+    "name": "jak",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "52a5fa3e-09a4-300c-9966-dc057dc33a0f",
+    "name": "root",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

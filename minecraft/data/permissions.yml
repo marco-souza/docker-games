@@ -1,0 +1,61 @@
+plugin:
+    permissions:
+        system: default
+        copies:
+groups:
+    Default:
+        default: true
+        info:
+            prefix: ''
+            suffix: ''
+            build: false
+        inheritance:
+        permissions:
+    Member:
+        default: false
+        info:
+            prefix: ''
+            suffix: ''
+            build: true
+        inheritance:
+            - Default
+        permissions:
+            -'craftbukkit.command.tell'
+    Moderator:
+        default: false
+        info:
+            prefix: ''
+            suffix: ''
+            build: true
+        inheritance:
+            - Member
+        permissions:
+            -'craftbukkit.command.tp'
+    Admins:
+        default: false
+        info:
+            prefix: ''
+            suffix: ''
+            build: true
+        inheritance:
+        permissions:
+            -'craftbukkit.command.time'
+            -'craftbukkit.command.give'
+            -'craftbukkit.command.gamemode'
+            -'craftbukkit.command.say'
+            -'craftbukkit.command.deop'
+            -'craftbukkit.command.op'
+            -'craftbukkit.command.ban'
+            -'craftbukkit.command.pardon'
+            -'craftbukkit.command.stop'
+            -'craftbukkit.command.save-off'
+            - '*'
+users:
+    root:
+        groups:
+            - Admins
+        permissions:
+    jak:
+        groups:
+            - Admins
+        permissions:
