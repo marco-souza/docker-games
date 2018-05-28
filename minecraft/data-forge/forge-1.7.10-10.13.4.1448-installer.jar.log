@@ -1,0 +1,51 @@
+Installing server to current directory
+MESSAGE: Data kindly mirrored by Forge at http://MinecraftForge.net/
+MESSAGE: Considering minecraft server jar
+MESSAGE: Downloading minecraft server version 1.7.10
+  ETag: 3e8912b293b52bd54f879919bd6e4e44
+  MD5:  3e8912b293b52bd54f879919bd6e4e44
+MESSAGE: Considering library net.minecraftforge:forge:1.7.10-10.13.4.1448-1.7.10: Not Downloading
+MESSAGE: Considering library net.minecraft:launchwrapper:1.11
+MESSAGE: Downloading library net.minecraft:launchwrapper:1.11
+MESSAGE: Considering library org.ow2.asm:asm-all:5.0.3
+MESSAGE: Downloading library org.ow2.asm:asm-all:5.0.3
+MESSAGE: Considering library com.typesafe.akka:akka-actor_2.11:2.3.3
+MESSAGE: Downloading library com.typesafe.akka:akka-actor_2.11:2.3.3
+MESSAGE: Unpacking packed file akka-actor_2.11-2.3.3.jar.pack.xz
+  Signed
+  Checksum Length: 140942
+  Total Length:    2606968
+  Temp File:       /tmp/art610010192642620211.pack
+MESSAGE: Successfully unpacked packed file akka-actor_2.11-2.3.3.jar.pack.xz
+Checking "/data/./libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+MESSAGE: Considering library com.typesafe:config:1.2.1
+MESSAGE: Downloading library com.typesafe:config:1.2.1
+MESSAGE: Unpacking packed file config-1.2.1.jar.pack.xz
+  Signed
+  Checksum Length: 12246
+  Total Length:    111476
+  Temp File:       /tmp/art580350653246883338.pack
+MESSAGE: Successfully unpacked packed file config-1.2.1.jar.pack.xz
+Checking "/data/./libraries/com/typesafe/config/1.2.1/config-1.2.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+MESSAGE: Considering library org.scala-lang:scala-actors-migration_2.11:1.1.0
+MESSAGE: Downloading library org.scala-lang:scala-actors-migration_2.11:1.1.0
+MESSAGE: Unpacking packed file scala-actors-migration_2.11-1.1.0.jar.pack.xz
+  Signed
+  Checksum Length: 3311
+  Total Length:    52481
+  Temp File:       /tmp/art9027321298806471738.pack
+MESSAGE: Successfully unpacked packed file scala-actors-migration_2.11-1.1.0.jar.pack.xz
+Checking "/data/./libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+MESSAGE: Considering library org.scala-lang:scala-compiler:2.11.1
+MESSAGE: Downloading library org.scala-lang:scala-compiler:2.11.1
+MESSAGE: Unpacking packed file scala-compiler-2.11.1.jar.pack.xz
+  Signed
+  Checksum Length: 942120
+  Total Length:    9183051
+  Temp File:       /tmp/art7182576713819769703.pack
